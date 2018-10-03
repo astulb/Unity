@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23268295373224970}
   - component: {fileID: 64468456043018934}
   - component: {fileID: 114790032358184844}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PawnDark
   m_TagString: Dark
   m_Icon: {fileID: 0}

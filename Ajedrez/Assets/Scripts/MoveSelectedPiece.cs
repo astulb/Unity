@@ -40,10 +40,12 @@ public class MoveSelectedPiece : MonoBehaviour
         if (gameController.PeonSeMovio != null)
         {
 
-            if (gameController.PeonSeMovio.transform.position.x == transform.position.x && hitColliders.Length == 0)
+            if (gameController.PeonSeMovio.transform.position.x == transform.position.x && gameController.GetSelectedPiece().gameObject.layer == 9 && hitColliders.Length == 0)
             {
                 Destroy(gameController.PeonSeMovio);
             }
         }
+
+       
     }
 }
